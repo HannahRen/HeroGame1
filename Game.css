@@ -1,0 +1,226 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+.bodystyle{
+	margin:0px;
+	width:640px;
+	height:1538px;
+	background: url(images/back.png) no-repeat;
+	position: relative;
+	filter:brightness(1); 
+}
+.top{
+	height:750px;
+	text-align: center;
+}
+.enterWebsite{
+	padding-top: 500px;
+}
+.enterWebsite p{
+	padding:0px;
+	line-height: 35px;
+}
+.row1{
+	color:white;
+	font-size: 25px;
+}
+.row2{
+	font-size: 52px;
+	color: #ffd200;
+}
+.row3{
+	font-size:20px;
+	color: #b39f58;
+}
+.row3 a:visited{
+	color:#b39f58;
+}
+.popLayer{
+	position: absolute;
+	width: 640px;
+	top:300px;
+	text-align: center;
+	z-index: 2;
+	display: none;
+}
+.popLayer button {
+	position: absolute;
+	z-index: 3;
+	top: 20px;
+    right: 90px;
+	width:23px;
+	height: 21px;
+	background: url(images/X.png) no-repeat;
+	border:none;
+}
+.popLayer button:focus{
+	outline: none;
+}
+.buttons{
+	height:430px;
+}
+.buttons ul li{
+	float: left;
+	list-style: none;
+	margin-left:72px;
+}
+.buttons ul{
+	clear:both;
+	list-style: none;
+	padding-top:20px;
+}
+.buttons ul:first-child{
+	padding: 0px;
+}
+.buttons ul li button{
+	background: url(images/button.png) no-repeat;
+	border: none;
+	width:208px;
+	height: 66px;
+	color: #f8fcfb;
+	font-size: 24px;
+}
+.buttons ul li button:hover {
+	background: url(images/button-click.png) no-repeat;
+	border: none;
+	width:208px;
+	height: 66px;
+}
+.buttons ul li button:focus{
+	outline: none;
+}
+
+#middle {
+	font-size: 20px;
+	color: white;
+	height:230px;
+	padding-left: 10%;
+}
+#foot{
+	font-size: 23px;
+	color:#f5f6f6;
+	text-align: center;
+}
+#middle h4 {
+	margin:0px;
+	color:#bebbb7;
+}
+ul{
+	list-style: none;
+	margin:0px;
+	padding-left:6px;
+	color:#b1aeab;
+}
+#changColor{
+	color:#c59152;
+}
+.submitLayer{
+	width:640px;
+	top:305px;
+	position: absolute;
+	z-index: 2;
+	text-align: center;
+	display: none;
+}
+.submitBack{
+	margin:0px auto;
+	width: 529px;
+	height: 401px;
+	border-radius: 10px;
+	background-color: white;
+}
+.closeSubmitLayer {
+	position: absolute;
+	z-index: 3;
+	top: 20px;
+    right: 80px;
+	width:23px;
+	height: 21px;
+	background: url(images/X_black.png) no-repeat;
+	border:none;
+}
+.submitLayer button:focus{
+	outline: none;
+}
+#phone{
+	background-color: #91968d; 
+	width: 421px;
+	height: 55px;
+	border-radius: 5px;
+	border: none;
+	margin-top: 70px;
+	margin-bottom: 30px;
+}
+#checkCode{
+	background-color: #91968d;
+	border-radius: 5px;
+	height: 55px;
+	width:263px;
+	border: none;
+	margin-bottom:30px;
+	margin-right:5px; 
+}
+.getCheckCode {
+	background-color:#d69b54;
+	height: 55px;
+	width:146px;
+	border:none;
+	border-radius: 5px;
+	color: #2e333c;
+	margin-left: 5px;
+	font-size:20px;
+	vertical-align: top
+}
+form p{
+	color: #522b1a;
+	font-size: 25px;
+}
+input[type="radio"]{
+	visibility: hidden;
+	position: absolute;
+}
+input[type="radio"]+label:before{
+	background: url(images/radio.png) no-repeat;
+	height:26px;
+	width:26px;
+    margin-right: 10px;
+    content: " ";
+    display:inline-block;
+    vertical-align: baseline;
+}
+input[type="radio"]:checked + label:before{
+  background: url(images/radio_checked.png) no-repeat;
+}
+form input[type="submit"]{
+	background: url(images/submit.png) no-repeat;
+	margin-top: 30px;
+	width: 255px;
+	height: 55px;
+	border:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>勇者大作战</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=640,target-densitydpi=320, minimum-scale=0.5, maximum-scale=2,user-scalable=0">
+    <link rel="stylesheet" type="text/css" href="Game.css">
+
+</head>
+
+<body>
+	<div class="bodystyle">
+		<div class="top">
+			<div class="enterWebsite">
+				<p class="row1">已预约人数</p>
+				<p class="row2">798459</p>
+				<p class="row3"><a href="">进入官网</a></p>
+		    </div>
+		</div>
+			<div class="buttons">
+				<ul>
+					<li><button class="sub-button" onclick="showImage(1)">忍者神龟</button></li>
+					<li><button class="sub-button" onclick="showImage(2)">美少女战士</button></li>
+				</ul>
+				<ul>
+					<li><button class="sub-button" onclick="showImage(3)">葫芦兄弟</button></li>
+					<li><button class="sub-button" onclick="showImage(4)">漫威系列</button></li>
+				</ul>
+				<ul>
+					<li><button class="sub-button" onclick="showImage(5)">圣斗士</button></li>
+					<li><button class="sub-button" onclick="showImage(7)">星球大战</button></li>
+				</ul>
+				<ul>
+					<li><button class="sub-button" onclick="showImage(6)">哆啦A梦</button></li>
+					<li><button class="sub-button" onclick="showImage(9)">变形金钢</button></li>
+				</ul>
+				<ul>
+					<li><button class="sub-button" onclick="showImage(8)">EVA系列</button></li>
+					<li><button class="sub-button" onclick="showsubmitLayer()">立即预约</button></li>
+				</ul>
+			</div>
+			<div id="middle">
+				<h4>［预约方式］</h4>
+				<ul>
+					<li>1. 选择你希望定制的角色系列</li>
+					<li>2. 提交手机号并进行验证</li>
+					<li>3. 点击“立即预约”，获得角色预览</li>
+				    <li id="changColor">*游戏开服后即可获得定制角色卡哦！</li>
+			    </ul>
+
+			</div>
+			<div id="foot">
+				<p>Copyright @2017 Hoolai Games All rights reserved </br>
+				互爱互动（北京）科技有限公司版权所有</p>
+			</div>
+		<script type="text/javascript" src="myjs.js"></script>
+
+    </div>
+    <div class="popLayer">
+			<button onclick="closeImage()"></button>
+			<img src="">
+	</div>
+
+	<div class="submitLayer">
+		<div class="submitBack">
+			<button class="closeSubmitLayer" onclick="closesubmitLayer()"></button>
+			<form>
+				<input type="text" id="phone" name="phone"><br/>
+				<input type="text" id="checkCode" name="checkCode" size="6">
+				<button class="getCheckCode" onclick="">获取验证码</button><br/>
+
+				<!--<input type="button" value="获取验证码" onclick＝""><br/>-->
+				<p>
+					选择手机系统：<input type="radio" id="apple" name="system" value="apple"> 
+					<label for="apple"><img src="images/apple.png">  苹果</label>
+					<input type="radio" id="android" name="system" value="android"> 
+					<label for="android"><img src="images/android.png">  安卓</label>
+				</p>
+				<input type="submit" value="">
+			</form>
+
+	    </div>
+    </div>
+</body>
+
+</html>
