@@ -1,5 +1,3 @@
 # HeroGame1
 
-photoshop cut
-
-hint:change the background image of <radio> and <checkbox>
+Game webpage implemented by HTML5/CSS3/jQuery
